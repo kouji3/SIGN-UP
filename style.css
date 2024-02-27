@@ -30,27 +30,28 @@ body {
     height: 100vh;
     
     background: url(bgimage.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
    
 }
 
 .title {
     position: relative;
-    top: 12%;
+    top: 14%;
     
-    height: 55px;
+    height: 85px;
     background-color: rgba(0, 0, 0, 0.678);
 }
 
 .title > h2 {
     letter-spacing: 2px;
     font-family: anta;
-    padding-top: 13px;
+    padding-top: 19px;
     color: white;
     
     font-weight: normal;
     text-align: center;
-    font-size: 26px;
+    font-size: 40px;
 }
 .right-part {
    width: 60vw;
@@ -63,63 +64,72 @@ body {
 
 .grid-container {
     position: relative;
-    left: 15px;
+    left: 25px;
+    
     top: 40px;
-    width: 350px;
+    width: 95%;
     padding: 5px;
-    height: 400px;
+    
+    height: 95%;
     
    
 }
 
 p {
     
-    font-size: 13px;
+    font-size: 25px;
     line-height: 1.2;
 }
 
 h4 {
     margin-top: 0;
-    font-size: 13px;
+    font-size: 25px;
     font-weight: 300;
 }
 
 .grid {
-    width: 340px;
+    width: 99%;
     padding: 5px;
     
-    height: 163px;
+    height: 500px;
 }
 
+#lets {
+    font-size: 25px;
+    margin: 0;
+}
 .grid-items {
     position: relative;
-    padding: 5px;
-    top: -8%;
-    left: -2%;
-    width: 330px;
+    padding-top: 15px;
+    
+    
+    
+    width: 60%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 40px);
+    grid-template-rows: repeat(3, 78px);
     height: 85%;
+    gap: 15px;
     
 }
 
 label {
-    font-size: 10px;
     
+    font-size: 21px;
+    color: rgb(238, 227, 227);
     cursor: pointer;
 }
 
 input {
-    width: 100px;
-    height: 18px;
+    width: 220px;
+    height: 60px;
     border-radius: 2px;
     background-color: rgba(0, 0, 0, 0.568);
     outline: none;
     border: none;
-    font-size: 8px;
+    font-size: 17px;
     
-    padding: 5px;
+    padding: 10px;
     
 }
 
@@ -141,29 +151,31 @@ input:invalid {
 hr {
   height: 0.5px; /* Set the height of the hr */
   border: none; /* Remove the default border */
-  background-color: rgba(1, 0, 8, 0.877); /* Set the color of the hr */
+  background-color: rgba(1, 0, 7, 0.842); /* Set the color of the hr */
   position: relative;
   
-  top: -16%; 
+  top: -28%; 
 }
 
 .sign-up {
     position: relative;
-    top: -10%;
+    top: -21%;
     padding-top: 4px;
-    padding-left: 23px;
+    padding-left: 32px;
     
     
 }
 
 #btn {
-    color: rgb(11, 27, 248);
-    height: 30px;
+    color: rgb(0, 17, 255);
+    height: 60px;
+    font-size: 23px;
     position: relative;
-    top: 55%;
+    top: 36%;
     cursor: pointer;
-    width: 120px;
-    border: 1px solid rgb(21, 34, 211);
+    width: 210px;
+
+    border: 1px solid rgb(0, 17, 255);
     background-color: rgba(255, 228, 196, 0);
     transition: background-color 0.3s ease;
 }
@@ -171,7 +183,7 @@ hr {
 #p {
     color: white;
     
-    font-size: 10px;
+    font-size: 20px;
 }
 
 #btn:hover {
