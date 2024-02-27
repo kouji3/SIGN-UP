@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box; 
+    font-family: kanit;
+    color: rgba(255, 255, 255, 0.774);
+    
+}
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #1f2937;
+}
+
+.left-part {
+    width: 40vw;
+    height: 100vh;
+    
+    background: url(bgimage.jpg);
+    background-size: cover;
+   
+}
+
+.title {
+    position: relative;
+    top: 12%;
+    
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+
+.title > h2 {
+    letter-spacing: 2px;
+    font-family: anta;
+    padding-top: 13px;
+    color: white;
+    
+    font-weight: normal;
+    text-align: center;
+    font-size: 26px;
+}
+.right-part {
+   width: 60vw;
+   height: 100vh;
+   
+   background-color: rgba(0, 0, 0, 0.521);
+   
+    
+}
+
+.grid-container {
+    position: relative;
+    left: 15px;
+    top: 40px;
+    width: 350px;
+    padding: 5px;
+    height: 400px;
+    
+   
+}
+
+p {
+    
+    font-size: 13px;
+    line-height: 1.2;
+}
+
+h4 {
+    margin-top: 0;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.grid {
+    width: 340px;
+    padding: 5px;
+    
+    height: 163px;
+}
+
+.grid-items {
+    position: relative;
+    padding: 5px;
+    top: -8%;
+    left: -2%;
+    width: 330px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 40px);
+    height: 85%;
+    
+}
+
+label {
+    font-size: 10px;
+    
+    cursor: pointer;
+}
+
+input {
+    width: 100px;
+    height: 18px;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.568);
+    outline: none;
+    border: none;
+    font-size: 8px;
+    
+    padding: 5px;
+    
+}
+
+input:focus {
+    border: 0.3px solid blue;
+}
+input:valid {
+    border: 1px solid green;
+}
+input:invalid {
+    border: 1px solid red;
+}
+.grid-items > div {
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+}
+
+hr {
+  height: 0.5px; /* Set the height of the hr */
+  border: none; /* Remove the default border */
+  background-color: rgba(1, 0, 8, 0.877); /* Set the color of the hr */
+  position: relative;
+  
+  top: -16%; 
+}
+
+.sign-up {
+    position: relative;
+    top: -10%;
+    padding-top: 4px;
+    padding-left: 23px;
+    
+    
+}
+
+#btn {
+    color: rgb(11, 27, 248);
+    height: 30px;
+    position: relative;
+    top: 55%;
+    cursor: pointer;
+    width: 120px;
+    border: 1px solid rgb(21, 34, 211);
+    background-color: rgba(255, 228, 196, 0);
+    transition: background-color 0.3s ease;
+}
+
+#p {
+    color: white;
+    
+    font-size: 10px;
+}
+
+#btn:hover {
+    background-color: rgb(11, 27, 248);
+    border: 1px solid rgb(11, 27, 248);
+    color: rgba(255, 255, 255, 0.774);
+}
+
+a {
+    
+    color: rgb(172, 224, 204);
+}
